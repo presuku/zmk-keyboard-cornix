@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: hitsmaxft
-      url-base: https://github.com/hitsmaxft
+    - name: presuku
+      url-base: https://github.com/presuku
     - name: urob
       url-base: https://github.com/urob
   projects:
@@ -17,9 +17,9 @@ manifest:
       remote: urob
       revision: main
       clone-depth: 1
-    #- name: zmk-rgbled-widget
-    #  remote: hitsmaxft
-    #  revision: main
-    #  clone-depth: 1
+    - name: zmk-rgbled-widget
+      remote: presuku
+      revision: main
+      clone-depth: 1
   self:
     path: config
