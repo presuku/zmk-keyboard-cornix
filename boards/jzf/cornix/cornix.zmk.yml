@@ -10,3 +10,4 @@ features:
 siblings:
   - cornix_left
   - cornix_right
+  - cornix_reset
