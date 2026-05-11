@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-
+/dts-v1/;
 #include "cornix.dtsi"
 
 &kscan0 {
