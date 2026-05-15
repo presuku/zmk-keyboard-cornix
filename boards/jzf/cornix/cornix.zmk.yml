@@ -6,7 +6,6 @@ url:
 features:
   - keys
   - encoder
-  - led
 siblings:
   - cornix_left
   - cornix_right
