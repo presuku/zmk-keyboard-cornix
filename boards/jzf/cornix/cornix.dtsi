@@ -15,7 +15,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-		zmk,physical-layout = &layout_50;
+        zmk,physical-layout = &layout_50;
     };
 
 
@@ -53,7 +53,7 @@
         spi-zero-frame = <0x80>;
 
         // spi-one-frame = <ONE_FRAME>;
-		// spi-zero-frame = <ZERO_FRAME>;
+        // spi-zero-frame = <ZERO_FRAME>;
         color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
     };
 };
